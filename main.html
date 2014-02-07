@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+	$("#video").css('display','none');
+	$("#videoSlider").click(function(){
+		$("#video").slideToggle("slow");
+	});
+  });
+  </script>
+  
+  <title>Main</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <body>
+    <div class="center">
+      <div class="titleBar" align="center">
+      <img src="images/title.png" alt="some_text">
+      </div>
+      <div class="navcentre">
+        <ul>
+          <li>
+			<a href="#">
+				<img src="images/home.png" alt="some_text">
+            </a>
+          </li>
+          <li>
+			<a href="news.html">
+				<img src="images/news.png" alt="some_text"> 
+            </a>
+          </li>
+          <li>
+			<a href="about.html">
+				<img src="images/about.png" alt="some_text">
+             </a>
+          </li>
+        </ul>
+      </div>
+	  <div id="videoSlider"><center>Click to watch video</center></div>
+      <iframe id="video" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/OtEnXj0ABLk?wmode=transparent"></iframe>
+      <div class="download" align="center">
+      <a href="#" >
+      <img src="images/button_android.png" alt="some_text">
+      </a>
+      </div>
+    </div>
+  </body>
+
+</html>

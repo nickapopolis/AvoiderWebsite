@@ -1,0 +1,31 @@
+background
+
+draw circles
+
+oilify 50 
+use intensity
+
+gaussian blur 120
+
+colourize 
+-----------------------------
+font size 200 
+sans
+line spacing -25
+
+
+oilify, mask size 27
+exponent 8
+mask size map disabled
+exponent map disabled
+use intensity algorithm disabled
+
+softglow
+radius 23.34
+brightness 0.61
+sharpness 0.92
+
+colorize
+hue 180
+saturation 50
+lightness 0
